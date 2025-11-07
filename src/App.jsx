@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import SEOHead from './components/SEOHead';
 import PageRouter from './components/PageRouter';
 import LinkHandler from './components/LinkHandler';
+import BackToTop from './components/BackToTop';
 
 function Landing() {
   return (
@@ -64,6 +65,7 @@ function App() {
         {path === '/' ? <Landing /> : <PageRouter path={path} />}
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
