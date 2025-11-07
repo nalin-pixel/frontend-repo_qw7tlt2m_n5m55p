@@ -4,9 +4,10 @@ export default function Hero() {
   return (
     <section id="home" className="relative flex min-h-[78vh] w-full items-center justify-center overflow-hidden bg-gradient-to-b from-white via-sky-50 to-indigo-50 dark:from-black dark:via-slate-900 dark:to-indigo-950">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/LU2mWMPbF3Qi1Qxh/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
+      {/* Gradient veil should not block interaction with the 3D scene */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/80 dark:from-black/70 dark:via-black/40 dark:to-black/80" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
