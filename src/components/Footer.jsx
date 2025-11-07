@@ -19,19 +19,19 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold text-gray-900 dark:text-gray-100">Company</p>
             <ul className="mt-3 space-y-2 text-sm text-gray-600 dark:text-gray-400">
-              <li><a href="#about" className="hover:text-gray-900 dark:hover:text-white">About</a></li>
-              <li><a href="#contact" className="hover:text-gray-900 dark:hover:text-white">Contact</a></li>
-              <li><a href="#blog" className="hover:text-gray-900 dark:hover:text-white">Blog</a></li>
-              <li><a href="#sitemap" className="hover:text-gray-900 dark:hover:text-white">Sitemap</a></li>
+              <li><a href="/about" className="hover:text-gray-900 dark:hover:text-white">About</a></li>
+              <li><a href="/contact" className="hover:text-gray-900 dark:hover:text-white">Contact</a></li>
+              <li><a href="/blog" className="hover:text-gray-900 dark:hover:text-white">Blog</a></li>
+              <li><a href="/sitemap" className="hover:text-gray-900 dark:hover:text-white">Sitemap</a></li>
             </ul>
           </div>
           <div>
             <p className="text-sm font-semibold text-gray-900 dark:text-gray-100">Legal</p>
             <ul className="mt-3 space-y-2 text-sm text-gray-600 dark:text-gray-400">
-              <li><a href="#privacy" className="hover:text-gray-900 dark:hover:text-white">Privacy Policy</a></li>
-              <li><a href="#terms" className="hover:text-gray-900 dark:hover:text-white">Terms & Conditions</a></li>
-              <li><a href="#cookie" className="hover:text-gray-900 dark:hover:text-white">Cookie Policy</a></li>
-              <li><a href="#dmca" className="hover:text-gray-900 dark:hover:text-white">DMCA</a></li>
+              <li><a href="/privacy" className="hover:text-gray-900 dark:hover:text-white">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-gray-900 dark:hover:text-white">Terms & Conditions</a></li>
+              <li><a href="/cookie" className="hover:text-gray-900 dark:hover:text-white">Cookie Policy</a></li>
+              <li><a href="/dmca" className="hover:text-gray-900 dark:hover:text-white">DMCA</a></li>
             </ul>
           </div>
         </div>

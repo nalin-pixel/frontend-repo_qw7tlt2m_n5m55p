@@ -41,7 +41,7 @@ export default function ToolGrid() {
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 md:text-3xl dark:text-white">Popular AI Image & Video Tools</h2>
             <p className="mt-2 text-gray-600 dark:text-gray-400">Fast, privacy-friendly, and ready for production. No sign-up required.</p>
           </div>
-          <a href="#blog" className="hidden rounded-xl border border-black/10 bg-white px-4 py-2 text-sm text-gray-900 hover:bg-gray-50 dark:border-white/10 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 md:inline-flex">Read Guides</a>
+          <a href="/blog" className="hidden rounded-xl border border-black/10 bg-white px-4 py-2 text-sm text-gray-900 hover:bg-gray-50 dark:border-white/10 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 md:inline-flex">Read Guides</a>
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
